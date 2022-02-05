@@ -1,0 +1,21 @@
+pwd -- wyświetla obecne położenie
+ls -- wyświetla zawartość w miejscu w którym się znajdujesz
+
+cd Dokumenty -- przejście do wskazanego folderu
+  mkdir test -- tworzy nowe folder test 
+  mkdir test2 -- tworzy nowe folder test2
+  
+cd test 
+
+cat > test1.txt --Tworzymy plik test1.txt dodatkowo, można uzupełnić jego zawartość. -- aaa --> ctrl+z
+cat test1.txt -- wyświetla zawartość pliku txt
+
+cd -  -- cofamy się o katalog
+cd test2
+
+cat > test2.txt  
+bbb
+  ctrl+z
+  cd -
+  
+cp -- Kopiowanie
