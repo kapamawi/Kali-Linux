@@ -1,0 +1,29 @@
+# new kali linux --> enter TL-WN722N v1 and iwconfig don't see wifi card
+
+sudo make
+apt-get update
+apt-get upgrade
+apt-get dist-upgrade
+reboot
+
+Use the command apt-get install gcc make linux-headers-$(uname -r) to install the appropriate linux-headers pacakge , then run :
+
+git clone https://github.com/lwfinger/rtl8188eu.git
+cd rtl8188eu
+make
+make install
+modprobe 8188eu
+
+
+
+apt update
+apt upgrade
+apt install bc
+rmmod r8188eu.ko
+git clone https://github.com/aircrack-ng/rtl8188eus 
+cd rtl8188eus
+echo "blacklist r8188eu.ko" > "/etc/modprobe.d/realtek.conf"
+make
+make install
+modprobe 8188eu
+reboot
