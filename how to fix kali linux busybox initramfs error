@@ -1,0 +1,3 @@
+fsck.ext /dev/sda1
+
+y -yes to fix
